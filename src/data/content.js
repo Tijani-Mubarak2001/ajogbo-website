@@ -1,4 +1,6 @@
 // Contact constants — fill these in when available
+const base = import.meta.env.BASE_URL;
+
 export const CONTACT_EMAIL = '';
 export const INSTAGRAM_URL = '';
 export const LINKEDIN_URL = '';
@@ -161,7 +163,7 @@ export const teamMembers = [
     role: 'President & Founder',
     description:
       'Backend Engineer and former Head Prefect Boy of Ajogbo Grammar School. Founded this initiative to connect alumni with students through mentorship, technology and career guidance.',
-    image: '/images/president.jpg',
+    image: `${base}images/president.jpg`,
     placeholder: false,
   },
   {
@@ -169,7 +171,7 @@ export const teamMembers = [
     role: 'Vice President',
     description:
       'Supporting the coordination and execution of the initiative, helping mobilise the alumni volunteer network and plan programme activities.',
-    image: '/images/vice-president.jpeg',
+    image: `${base}images/vice-president.jpeg`,
     placeholder: false,
   },
   {
