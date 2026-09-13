@@ -1,0 +1,63 @@
+.cta {
+  position: relative;
+  overflow: hidden;
+}
+
+.cta__bg-pattern {
+  position: absolute;
+  inset: 0;
+  background-image:
+    radial-gradient(circle at 10% 20%, rgba(201, 162, 39, 0.06) 0%, transparent 50%),
+    radial-gradient(circle at 90% 80%, rgba(18, 107, 80, 0.2) 0%, transparent 50%);
+  pointer-events: none;
+}
+
+.cta__inner {
+  position: relative;
+  z-index: var(--z-base);
+  display: flex;
+  justify-content: center;
+}
+
+.cta__content {
+  text-align: center;
+  max-width: 720px;
+}
+
+.cta__content .divider {
+  margin: var(--space-4) auto var(--space-6);
+  background: var(--gold);
+}
+
+.cta__heading {
+  font-size: clamp(1.8rem, 3.5vw, 2.8rem);
+  color: var(--white);
+  margin-bottom: var(--space-6);
+  line-height: 1.2;
+}
+
+.cta__body {
+  color: rgba(255,255,255,0.75);
+  font-size: 1.05rem;
+  line-height: 1.75;
+  margin-bottom: var(--space-10);
+}
+
+.cta__actions {
+  display: flex;
+  gap: var(--space-4);
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+@media (max-width: 480px) {
+  .cta__actions {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .cta__actions .btn {
+    width: 100%;
+    justify-content: center;
+  }
+}

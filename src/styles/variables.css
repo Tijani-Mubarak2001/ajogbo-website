@@ -1,0 +1,96 @@
+/* =========================================================
+   AJOGBO FUTURE LEADERS INITIATIVE — CSS Custom Properties
+   ========================================================= */
+
+:root {
+  /* Brand colours */
+  --primary:       #0B4D3B;
+  --primary-dark:  #073B2D;
+  --secondary:     #126B50;
+  --light-green:   #EAF5F0;
+  --mid-green:     #C8E6DA;
+  --white:         #FFFFFF;
+  --off-white:     #F7FAF8;
+  --text-dark:     #17231F;
+  --text-body:     #2E3C37;
+  --muted:         #66736D;
+  --gold:          #C9A227;
+  --gold-light:    #F0DFA0;
+  --border:        #DCE7E1;
+  --border-strong: #B5CFC5;
+
+  /* Section backgrounds */
+  --bg-white:      #FFFFFF;
+  --bg-off-white:  #F7FAF8;
+  --bg-light:      #EAF5F0;
+  --bg-dark:       #073B2D;
+  --bg-card:       #FFFFFF;
+
+  /* Shadows */
+  --shadow-xs:  0 1px 3px rgba(11, 77, 59, 0.06);
+  --shadow-sm:  0 2px 8px rgba(11, 77, 59, 0.08);
+  --shadow-md:  0 4px 20px rgba(11, 77, 59, 0.10);
+  --shadow-lg:  0 8px 40px rgba(11, 77, 59, 0.14);
+  --shadow-xl:  0 16px 60px rgba(11, 77, 59, 0.18);
+
+  /* Border radius */
+  --radius-sm:   8px;
+  --radius-md:   12px;
+  --radius-lg:   18px;
+  --radius-xl:   24px;
+  --radius-2xl:  32px;
+  --radius-full: 9999px;
+
+  /* Spacing scale */
+  --space-1:  4px;
+  --space-2:  8px;
+  --space-3:  12px;
+  --space-4:  16px;
+  --space-5:  20px;
+  --space-6:  24px;
+  --space-8:  32px;
+  --space-10: 40px;
+  --space-12: 48px;
+  --space-16: 64px;
+  --space-20: 80px;
+  --space-24: 96px;
+  --space-32: 128px;
+
+  /* Typography */
+  --font-heading: 'Plus Jakarta Sans', 'Manrope', system-ui, sans-serif;
+  --font-body:    'Inter', system-ui, sans-serif;
+
+  /* Section padding */
+  --section-py: 96px;
+
+  /* Transitions */
+  --ease:       cubic-bezier(0.4, 0, 0.2, 1);
+  --ease-out:   cubic-bezier(0, 0, 0.2, 1);
+  --dur-fast:   150ms;
+  --dur-base:   250ms;
+  --dur-slow:   400ms;
+  --dur-reveal: 600ms;
+
+  /* Z-index scale */
+  --z-base:    1;
+  --z-raised:  10;
+  --z-nav:     100;
+  --z-overlay: 200;
+  --z-modal:   300;
+
+  /* Container */
+  --container-max: 1280px;
+  --container-px:  clamp(16px, 5vw, 80px);
+}
+
+@media (max-width: 768px) {
+  :root {
+    --section-py: 64px;
+  }
+}
+
+@media (max-width: 480px) {
+  :root {
+    --section-py: 56px;
+  }
+}

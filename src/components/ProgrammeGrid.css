@@ -1,0 +1,124 @@
+.programmes__header {
+  text-align: center;
+  max-width: 620px;
+  margin: 0 auto var(--space-16);
+}
+
+.programmes__header .divider {
+  margin: 0 auto var(--space-5);
+}
+
+.programmes__header h2 {
+  margin-bottom: var(--space-4);
+}
+
+.programmes__lead {
+  color: var(--muted);
+  font-size: 1.02rem;
+  line-height: 1.7;
+}
+
+.programmes__grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: var(--space-6);
+}
+
+/* Card */
+.prog-card {
+  background: var(--white);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-xl);
+  padding: var(--space-10);
+  transition: box-shadow var(--dur-base) var(--ease),
+              transform var(--dur-base) var(--ease),
+              border-color var(--dur-base) var(--ease);
+  position: relative;
+  overflow: hidden;
+}
+
+.prog-card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 3px;
+  background: linear-gradient(90deg, var(--primary), var(--secondary));
+  opacity: 0;
+  transition: opacity var(--dur-base) var(--ease);
+}
+
+.prog-card:hover {
+  box-shadow: var(--shadow-lg);
+  transform: translateY(-5px);
+  border-color: var(--border-strong);
+}
+
+.prog-card:hover::before {
+  opacity: 1;
+}
+
+.prog-card__header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: var(--space-5);
+}
+
+.prog-card__number {
+  font-family: var(--font-heading);
+  font-size: 2rem;
+  font-weight: 800;
+  color: var(--mid-green);
+  line-height: 1;
+}
+
+.prog-card__icon {
+  width: 48px;
+  height: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--light-green);
+  border-radius: var(--radius-md);
+  color: var(--primary);
+  transition: background var(--dur-base) var(--ease),
+              color var(--dur-base) var(--ease);
+}
+
+.prog-card:hover .prog-card__icon {
+  background: var(--primary);
+  color: var(--white);
+}
+
+.prog-card__title {
+  font-size: 1.05rem;
+  font-weight: 700;
+  color: var(--text-dark);
+  margin-bottom: var(--space-3);
+}
+
+.prog-card__desc {
+  font-size: 0.9rem;
+  color: var(--muted);
+  line-height: 1.7;
+}
+
+/* Responsive */
+@media (max-width: 960px) {
+  .programmes__grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 560px) {
+  .programmes__grid {
+    grid-template-columns: 1fr;
+    gap: var(--space-4);
+  }
+
+  .prog-card {
+    padding: var(--space-6) var(--space-5);
+  }
+}

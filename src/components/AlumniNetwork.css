@@ -1,0 +1,90 @@
+.alumni {
+  position: relative;
+  overflow: hidden;
+}
+
+.alumni__bg {
+  position: absolute;
+  inset: 0;
+}
+
+.alumni__bg-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center 35%;
+}
+
+.alumni__overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    135deg,
+    rgba(7, 59, 45, 0.95) 0%,
+    rgba(11, 77, 59, 0.88) 100%
+  );
+}
+
+.alumni__inner {
+  position: relative;
+  z-index: var(--z-base);
+  display: flex;
+  justify-content: center;
+}
+
+.alumni__content {
+  max-width: 780px;
+  text-align: center;
+}
+
+.alumni__content .divider {
+  margin: 0 auto var(--space-6);
+}
+
+.alumni__heading {
+  color: var(--white);
+  margin-bottom: var(--space-6);
+}
+
+.alumni__lead {
+  color: rgba(255,255,255,0.8);
+  font-size: 1.05rem;
+  line-height: 1.75;
+  margin-bottom: var(--space-10);
+}
+
+.alumni__professions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-3);
+  justify-content: center;
+  margin-bottom: var(--space-10);
+}
+
+.alumni__prof {
+  display: inline-block;
+  background: rgba(255,255,255,0.1);
+  border: 1px solid rgba(255,255,255,0.2);
+  color: var(--white);
+  font-size: 0.88rem;
+  font-weight: 500;
+  padding: 8px 18px;
+  border-radius: var(--radius-full);
+  backdrop-filter: blur(4px);
+  transition: background var(--dur-base) var(--ease),
+              border-color var(--dur-base) var(--ease),
+              transform var(--dur-fast) var(--ease);
+  cursor: default;
+}
+
+.alumni__prof:hover {
+  background: rgba(201, 162, 39, 0.25);
+  border-color: var(--gold);
+  transform: translateY(-2px);
+}
+
+.alumni__note {
+  color: rgba(255,255,255,0.6);
+  font-size: 0.9rem;
+  line-height: 1.7;
+}

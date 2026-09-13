@@ -1,0 +1,122 @@
+.team__header {
+  text-align: center;
+  max-width: 600px;
+  margin: 0 auto var(--space-16);
+}
+
+.team__lead {
+  color: var(--muted);
+  font-size: 1rem;
+  line-height: 1.7;
+  margin-top: var(--space-4);
+}
+
+.team__grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: var(--space-8);
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.team__card {
+  display: flex;
+  flex-direction: column;
+  background: var(--white);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-xl);
+  overflow: hidden;
+  box-shadow: var(--shadow-sm);
+  transition: box-shadow var(--dur-base) var(--ease),
+              transform var(--dur-base) var(--ease);
+}
+
+.team__card:hover {
+  box-shadow: var(--shadow-lg);
+  transform: translateY(-4px);
+}
+
+.team__photo-wrap {
+  aspect-ratio: 1 / 1;
+  overflow: hidden;
+  background: var(--light-green);
+}
+
+.team__photo {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center top;
+  transition: transform var(--dur-slow) var(--ease);
+}
+
+.team__card:hover .team__photo {
+  transform: scale(1.04);
+}
+
+.team__photo-placeholder {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: var(--space-3);
+  background: var(--light-green);
+  color: var(--border-strong);
+}
+
+.team__photo-placeholder-label {
+  font-size: 0.78rem;
+  font-weight: 600;
+  color: var(--muted);
+  letter-spacing: 0.04em;
+}
+
+.team__card--placeholder {
+  border-style: dashed;
+  border-color: var(--border-strong);
+}
+
+.team__info {
+  padding: var(--space-6);
+  flex: 1;
+}
+
+.team__role {
+  display: block;
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--secondary);
+  margin-bottom: var(--space-2);
+}
+
+.team__name {
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: var(--text-dark);
+  margin-bottom: var(--space-3);
+}
+
+.team__desc {
+  font-size: 0.88rem;
+  color: var(--muted);
+  line-height: 1.65;
+}
+
+@media (max-width: 768px) {
+  .team__grid {
+    grid-template-columns: 1fr;
+    max-width: 400px;
+    gap: var(--space-6);
+  }
+}
+
+@media (min-width: 769px) and (max-width: 960px) {
+  .team__grid {
+    grid-template-columns: repeat(2, 1fr);
+    max-width: 680px;
+  }
+}
