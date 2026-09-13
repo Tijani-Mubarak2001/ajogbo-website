@@ -29,9 +29,9 @@ export default function AboutSection() {
           </h2>
 
           <p className="about__lead">
-            As a former student and Head Prefect Boy of Ajogbo Grammar School, Tijani
-            Mubarak is committed to giving back to the institution that contributed to
-            his academic, personal and leadership development.
+            Founded by alumni who remember what it felt like to be a student without
+            a clear picture of what the future could hold, this initiative is the alumni
+            community's way of giving back to the school that shaped them.
           </p>
 
           <p className="about__body">

@@ -162,7 +162,7 @@ export const teamMembers = [
     name: 'Tijani Mubarak',
     role: 'President & Founder',
     description:
-      'Backend Engineer and former Head Prefect Boy of Ajogbo Grammar School. Founded this initiative to connect alumni with students through mentorship, technology and career guidance.',
+      'Backend Engineer and former Head Prefect Boy of Ajogbo Grammar School (2018 set). Initiated this programme to mobilise alumni around a shared commitment to giving back — connecting the community of former students with the next generation of learners.',
     image: `${base}images/president.jpg`,
     placeholder: false,
   },

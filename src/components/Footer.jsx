@@ -55,9 +55,9 @@ export default function Footer() {
         <div className="footer__info">
           <h4 className="footer__nav-heading">About</h4>
           <p className="footer__info-text">
-            Proposed by Tijani Mubarak<br />
-            Former Head Prefect Boy (2018 set)<br />
-            Ajogbo Grammar School
+            An alumni-led community initiative<br />
+            Ajogbo Grammar School<br />
+            Ajibode Ota, Ogun State
           </p>
 
           {(INSTAGRAM_URL || LINKEDIN_URL) && (

@@ -25,22 +25,24 @@ export default function FounderSection() {
       <div className="container founder__inner">
         {/* Text */}
         <div className="founder__content reveal-left">
-          <span className="eyebrow">Founder &amp; Volunteer Mentor</span>
+          <span className="eyebrow">Alumni Volunteer · Technology &amp; Mentorship</span>
           <div className="divider" />
           <h2 id="founder-heading" className="founder__heading">
             Technology Is One of the Pathways We Want Students to See
           </h2>
 
           <p className="founder__lead">
-            As a Backend Engineer with a background in Computer Science, Tijani Mubarak
-            will volunteer his professional experience to help students understand
-            technology and the opportunities available within the industry.
+            Among the alumni volunteering their expertise is Tijani Mubarak, a Backend
+            Engineer with a background in Computer Science. He will share his professional
+            experience to help students understand technology and the real opportunities
+            available within the industry.
           </p>
 
           <p className="founder__body">
             His sessions will cover software engineering, artificial intelligence,
             digital skills and how students can begin preparing for technology careers
-            from secondary school — making the future feel tangible, not distant.
+            from secondary school — making the future feel tangible, not distant. He
+            represents the kind of alumni volunteer at the heart of this initiative.
           </p>
 
           <div className="founder__tags-section">
@@ -53,9 +55,9 @@ export default function FounderSection() {
           </div>
 
           <p className="founder__body" style={{ marginTop: 'var(--space-8)' }}>
-            Beyond technology, Tijani will contribute to broader discussions on
-            personal development — helping students build the mindset and habits that
-            lead to a responsible, purposeful life after secondary school.
+            Alumni volunteers also contribute to broader conversations on personal
+            development — helping students build the mindset and habits that lead to
+            a responsible, purposeful life after secondary school.
           </p>
 
           <div className="founder__tags-section">
