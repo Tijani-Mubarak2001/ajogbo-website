@@ -190,6 +190,10 @@
   }
 
   .hero__headline {
-    font-size: 2.2rem;
+    font-size: 1.8rem;
+  }
+
+  .hero__subheadline {
+    font-size: 0.95rem;
   }
 }

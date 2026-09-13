@@ -200,3 +200,17 @@
     display: flex;
   }
 }
+
+@media (max-width: 480px) {
+  .navbar__inner {
+    gap: var(--space-4);
+  }
+
+  .navbar__logo-top {
+    font-size: 0.85rem;
+  }
+
+  .navbar__logo-bottom {
+    font-size: 0.55rem;
+  }
+}
