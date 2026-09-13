@@ -6,6 +6,7 @@
   flex-direction: column;
   justify-content: center;
   overflow: hidden;
+  max-width: 100vw;
   margin-top: -72px; /* overlap fixed navbar */
   padding-top: 72px;
 }
@@ -182,11 +183,14 @@
 @media (max-width: 480px) {
   .hero__actions {
     flex-direction: column;
+    width: 100%;
   }
 
   .hero__actions .btn {
     width: 100%;
     justify-content: center;
+    max-width: 100%;
+    box-sizing: border-box;
   }
 
   .hero__headline {
