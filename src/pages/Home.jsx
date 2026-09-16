@@ -1,19 +1,11 @@
 import { useEffect } from 'react';
 import Hero from '../components/Hero';
-import IntroHighlights from '../components/IntroHighlights';
 import AboutSection from '../components/AboutSection';
-import PurposeSection from '../components/PurposeSection';
-import FounderSection from '../components/FounderSection';
 import ProgrammeGrid from '../components/ProgrammeGrid';
-import AlumniNetwork from '../components/AlumniNetwork';
-import ProgrammeTimeline from '../components/ProgrammeTimeline';
-import EducationalSupport from '../components/EducationalSupport';
 import ImpactSection from '../components/ImpactSection';
 import ImpactTracking from '../components/ImpactTracking';
-import DocumentationSection from '../components/DocumentationSection';
 import TeamSection from '../components/TeamSection';
 import Gallery from '../components/Gallery';
-import VolunteerCTA from '../components/VolunteerCTA';
 import GetInvolved from '../components/GetInvolved';
 
 export default function Home() {
@@ -38,20 +30,12 @@ export default function Home() {
   return (
     <main id="main-content" role="main">
       <Hero />
-      <IntroHighlights />
       <AboutSection />
-      <PurposeSection />
-      <FounderSection />
       <ProgrammeGrid />
-      <AlumniNetwork />
-      <ProgrammeTimeline />
-      <EducationalSupport />
       <ImpactSection />
       <ImpactTracking />
-      <DocumentationSection />
-      <TeamSection />
       <Gallery />
-      <VolunteerCTA />
+      <TeamSection />
       <GetInvolved />
     </main>
   );

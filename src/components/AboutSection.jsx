@@ -30,28 +30,28 @@ export default function AboutSection() {
 
           <p className="about__lead">
             Founded by alumni who remember what it felt like to be a student without
-            a clear picture of what the future could hold, this initiative is the alumni
-            community's way of giving back to the school that shaped them.
+            a clear picture of what the future could hold, this initiative is the
+            alumni community's way of giving back to the school that shaped them.
           </p>
 
           <p className="about__body">
-            The Ajogbo Future Leaders Initiative reconnects alumni with the school and
-            creates a sustainable, ongoing platform through which professionals from
-            different fields can share their knowledge, experiences and practical
-            guidance with students.
+            The Ajogbo Future Leaders Initiative reconnects alumni with the school
+            and creates a sustainable, ongoing platform through which professionals
+            from different fields share their knowledge, experiences and practical
+            guidance directly with current students.
           </p>
 
           <p className="about__body">
-            Rather than limiting the engagement to a single career talk, the programme
-            builds recurring interactions that help students make informed decisions
-            about education, careers, leadership and their future.
+            Every alumni volunteer brings something unique — a career path, a skill,
+            a story. Together, these contributions give students a broader, more
+            informed picture of the world and what is possible for them.
           </p>
 
           <div className="about__highlight">
             <span className="about__highlight-icon">↗</span>
             <p className="about__highlight-text">
               An ongoing alumni-to-student engagement programme — built to last beyond
-              a single event.
+              a single event, driven by a community that genuinely cares.
             </p>
           </div>
         </div>

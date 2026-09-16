@@ -16,12 +16,13 @@ export default function ProgrammeGrid() {
     <section className="programmes section section--light" id="programmes" aria-labelledby="programmes-heading">
       <div className="container">
         <div className="programmes__header reveal">
-          <span className="eyebrow">What Students Can Expect</span>
+          <span className="eyebrow">What Alumni Bring to Students</span>
           <div className="divider" />
           <h2 id="programmes-heading">Programme Areas</h2>
           <p className="programmes__lead">
-            The initiative delivers structured sessions across six core areas, giving
-            students exposure, mentorship and practical support.
+            Alumni volunteers deliver structured sessions across six core areas —
+            giving students exposure, mentorship, practical guidance and support
+            drawn from real professional experience.
           </p>
         </div>
 

@@ -9,9 +9,19 @@ export const images = {
   students: `${base}images/ajogbo-students-picture.jpg`,
   gallery: [
     {
+      src: `${base}images/outreach.jpeg`,
+      alt: 'Alumni outreach session with Ajogbo Grammar School students',
+      span: 'large',
+    },
+    {
+      src: `${base}images/outreach2.jpeg`,
+      alt: 'Community engagement — Ajogbo Future Leaders Initiative outreach',
+      span: 'medium',
+    },
+    {
       src: `${base}images/ajogbo-students-picture.jpg`,
       alt: 'Ajogbo Grammar School students',
-      span: 'large',
+      span: 'small',
     },
     {
       src: `${base}images/programme-poster.jpeg`,
