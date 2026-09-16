@@ -179,7 +179,7 @@ export const teamMembers = [
     role: 'Treasurer',
     description:
       'Responsible for managing voluntary financial contributions and overseeing the provision of educational support materials to students.',
-    image: null,
-    placeholder: true,
+    image: `${base}images/bisi.jpeg`,
+    placeholder: false,
   },
 ];
